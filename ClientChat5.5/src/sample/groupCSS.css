@@ -1,0 +1,329 @@
+/*-------------------主页面-------------------*/
+.button{
+    -fx-text-fill: white;
+    -fx-background-color: #030c35;
+    -fx-font: bold italic 12px "华文细黑";
+}
+#confirm_creat_group_btn{
+    -fx-text-fill: white;
+    -fx-background-color: #0a1340;
+    -fx-font: bold italic 12px "华文细黑";
+    -fx-pref-width: 70;
+    -fx-pref-height: 20;
+}
+#btn_create_group{
+    -fx-text-fill: white;
+    -fx-background-color: #0a1340;
+    -fx-font: bold italic 12px "华文细黑";
+}
+#btn_open_group{
+    -fx-text-fill: white;
+    -fx-background-color: #0a1340;
+    -fx-font: bold italic 12px "华文细黑";
+}
+#btn_change{
+    -fx-text-fill: white;
+    -fx-background-color: #0a1340;
+    -fx-font: bold italic 12px "华文细黑";
+}
+.label{
+    -fx-text-fill: white;
+    -fx-font: bold italic 12px "华文细黑";
+}
+.list-cell:even {
+    -fx-background-color: #1d3072;
+    -fx-cell-size: 50;
+    -fx-text-fill: white;
+
+}
+.list-cell:odd {
+    -fx-background-color: #1d3072;
+    -fx-cell-size: 50;
+    -fx-text-fill: white;
+}
+.list-cell:selected {
+    -fx-background-color: #021959;
+    -fx-cell-size: 50;
+    -fx-text-fill: white;
+}
+.list-cell:hover {
+    -fx-background-color: #233880;
+}
+
+.text-area{
+    -fx-background-color: #17285c;
+    -fx-text-fill: black;
+}
+/*---------------------群聊页面------------------------*/
+.G_rootPane{
+    -fx-background-color: #030c35;
+    -fx-pref-width: 1000px;
+    -fx-pref-height: 618px;
+}
+.scroll-pane-glist{
+
+    -fx-padding: 0px;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 225px;
+    -fx-border-style: none;
+}
+
+
+
+
+#_alert{
+    -fx-background-color: #0a1340;
+}
+
+/*88 + 40*2 + 2*225 */
+/*-------------------左侧列表----------------*/
+.list-label{
+    -fx-text-fill: white;
+    -fx-font-family: Arial;
+    -fx-font-size:14px;
+    -fx-padding: 5px,0px;
+    -fx-alignment: center;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 30px;
+}
+#G_leftPane {
+    -fx-background-color: #0a1340;
+    -fx-pref-width: 300;
+    -fx-pref-height: 618;
+    -fx-padding: 10;
+}
+#G_infoHead{
+    -fx-background-color: #0a1340;
+    -fx-padding: 0px,0px;
+    -fx-pref-width: 250px;
+    -fx-pref-height: 68px;
+    -fx-alignment: center;
+    /*-fx-spacing: 20px;*/
+}
+#G_groupname{
+    -fx-background-color: #17285c;
+    -fx-pref-height: 40px;
+    -fx-pref-width: 280px;
+    -fx-alignment: center;  /*也是label中的text用的*/
+    -fx-text-fill: white;
+}
+#G_projPane {
+    -fx-padding: 0px,0px;
+    -fx-pref-width: 250px;
+    -fx-pref-height: 275px;
+    -fx-background-color: #1d3072;
+}
+
+#G_projScroll {
+    -fx-background-color: #0a1340;
+    -fx-pref-width: 250px;
+    -fx-pref-height: 245px;
+}
+#G_listView_proj{
+    -fx-background-color: #0a1340;
+}
+#G_userPane{
+    -fx-padding: 0px,0px;
+    -fx-pref-width: 250px;
+    -fx-pref-height: 275px;
+    -fx-background-color: #1d3072;
+}
+#G_userScroll{
+    -fx-background-color: #0a1340;
+    -fx-pref-width: 250px;
+    -fx-pref-height: 245px;
+}
+#G_listView_user{
+    -fx-background-color: #0a1340;
+}
+
+/*.list-cell {
+    -fx-pref-width: 300px;
+    -fx-pref-height: 40;
+    -fx-background-color: #010716;
+    -fx-text-fill: white;
+    -fx-border-radius: 40px;
+}
+.list-cell:hover {
+
+    -fx-background-color: #233880;
+}
+
+.list-cell:selected {
+    -fx-background-color: #1d3072;
+}
+.list-cell:empty {
+    -fx-background-color: #010716;
+}*/
+
+
+
+
+/*-------------------右侧文件列表----------------*/
+/*88 + 80 + 450*/
+
+#G_rightPane{
+    -fx-background-color: #0a1340;
+    -fx-pref-width: 700;
+    -fx-pref-height: 618;
+}
+#G_right_Head{
+    -fx-background-color: #131f5a;
+    -fx-padding: 10px;
+    -fx-content-display: space-around;
+    -fx-pref-height: 68px;
+    -fx-border-radius: 50px;
+}
+
+#G_right_Body{
+    -fx-background-color: #0a1340;
+    -fx-pref-height: 550px;
+    -fx-pref-width: 700px;
+    -fx-padding: 10px;
+}
+
+#G_filePane{
+    -fx-background-color: #2a98b8;
+    -fx-pref-height: 550px;
+}
+
+
+#G_fileHead{
+    -fx-background-color: #0a1340;
+    -fx-padding: 10px;
+    -fx-pref-height: 40px;
+    /*-fx-spacing: 10px;*/
+}
+#G_fileBody{
+    -fx-pref-height: 510px;
+    -fx-background-color: #0a1340;
+}
+#G_fileBox{
+    -fx-background-color: #0a1340;
+    -fx-pref-height: 510px;
+}
+
+.right_tar{
+    -fx-text-fill: white;
+    -fx-pref-height: 40px;
+    -fx-pref-width: 120px;
+    -fx-border-width: 0;
+    fx-background-insets:0;
+    -fx-border-style: none;
+    -fx-font-weight:bold;
+    -fx-background-color: #131f5a;
+}
+.right_tar:hover{
+    -fx-background-color: #131f5a;
+}
+
+.right_tar:pressed{
+    -fx-background-color: #131f5a;
+}
+
+
+.btn_tar{
+    -fx-font-size:14;
+    -fx-background-color: #0a1340;
+}
+.btn_tar:hover{
+    -fx-background-color: #0a1340;
+}
+.btn_tar:pressed {
+    -fx-background-color: #0a1340;
+}
+
+.file-cell{
+    -fx-background-color: #0a1340;
+    -fx-border-radius: 20px;
+    -fx-padding: 20px;
+    -fx-spacing: 30px;
+}
+
+.file-cell:hover{
+    -fx-background-color: #e6e8f3;
+}
+.file-cell:pressed {
+    -fx-background-color: #b3b6c1;
+}
+
+
+
+.file-pull{
+    -fx-font-family: Consolas;
+    -fx-font-size:14;
+    -fx-content-display: right; /*label才能用*/
+
+}
+
+.file-push{
+    -fx-content-display: right; /*label才能用*/
+    -fx-font-family: Consolas;
+    -fx-font-size:14;
+
+}
+
+.file-img{
+    -fx-fill-height: 25px;
+    -fx-fill-width: 25px;
+    -fx-padding: 10px ;
+}
+
+/*-------------------右侧聊天区----------------*/
+#textShowPane{
+    -fx-pref-height: 480px;
+    -fx-background-color: #0a1340;
+    -fx-alignment: center;
+}
+#G_textContent_show{
+    /*-fx-text-border: none;*/
+    -fx-background-insets: 0;
+    -fx-fill:  #0a1340;
+    -fx-pref-height: 440px;
+    -fx-pref-width: 680px;
+    -fx-text-fill: black;
+
+}
+
+#textSendPane{
+    -fx-pref-height: 70px;
+    -fx-pref-width: 700px;
+    -fx-background-color: #0a1340;
+}
+#G_textarea{
+    -fx-background-color: #0a1340;
+    -fx-pref-width: 680px;
+    -fx-pref-height: 450px;
+    -fx-text-fill: black;
+}
+
+
+
+#btn_send{
+    -fx-background-color: #0a1340;
+    -fx-border-style: none;
+    -fx-text-fill: white;
+    -fx-font-weight:bold;
+}
+
+
+
+
+/*#left-pane{
+    -fx-background-color: #0a1340;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 558px;
+    -fx-alignment: TOP_CENTER;
+}
+
+#right-pane{
+    -fx-background-color: white;
+    -fx-pref-width: 550px;
+    -fx-pref-height: 558px;
+    -fx-alignment: TOP_CENTER;
+}*/
+
+
+
+
+
