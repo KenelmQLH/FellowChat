@@ -17,11 +17,11 @@
 
 ## 功能和页面展示
 （1）主要交互信号：
-![图片1（表1）](https://github.com/KenelmQLH/FellowChat/raw/master/pic/table1.jpg)
+![图片1（表1）](https://github.com/KenelmQLH/FellowChat/raw/master/pic/table1.png)
 
-![图片2（表2）](https://github.com/KenelmQLH/FellowChat/raw/master/pic/table2.jpg)
+![图片2（表2）](https://github.com/KenelmQLH/FellowChat/raw/master/pic/table2.png)
 
 （2）页面
-![图片1（图1）](https://github.com/KenelmQLH/FellowChat/raw/master/pic/pic1.jpg)
-![图片2（图2）](https://github.com/KenelmQLH/FellowChat/raw/master/pic/pic2.jpg)
-![图片3（图3）](https://github.com/KenelmQLH/FellowChat/raw/master/pic/pic1.jpg)
+![图片1（图1）](https://github.com/KenelmQLH/FellowChat/raw/master/pic/pic1.png)
+![图片2（图2）](https://github.com/KenelmQLH/FellowChat/raw/master/pic/pic2.png)
+![图片3（图3）](https://github.com/KenelmQLH/FellowChat/raw/master/pic/pic3.png)
